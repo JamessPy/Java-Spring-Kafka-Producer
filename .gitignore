@@ -1,0 +1,67 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific
+*.pid
+*.seed
+*.key
+*.db
+*.h2.db
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# Others
+*.swp
+*.swo
