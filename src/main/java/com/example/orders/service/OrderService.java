@@ -21,12 +21,12 @@ public class OrderService {
 
     public OrderService(OrderRepository orders, OutboxRepository outboxRepo) {
         this.orders = orders;
-        this.outboxRepo = outboxRepo; // ✅ constructor injection
+        this.outboxRepo = outboxRepo; // Constructor injection
     }
 
     @Transactional
     public OrderResponse createOrder(OrderCreateRequest req) {
-        // Order kaydet
+        // Save order
         Order entity = new Order(req.product(), req.quantity());
         Order saved = orders.save(entity);
 
