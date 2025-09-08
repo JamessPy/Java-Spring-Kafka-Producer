@@ -31,7 +31,7 @@ public class OutboxRelay {
     }
 
     @Transactional
-    @Scheduled(fixedDelay = 15000)  // Check every 3 seconds
+    @Scheduled(fixedDelay = 60000)  // Check every 3 seconds
     public void flush() {
         List<OutboxEvent> events = outboxRepo.findByProcessedFalse();
         if (events.isEmpty()) return;
