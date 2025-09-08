@@ -32,3 +32,8 @@ logging:
   level:
     org.hibernate.SQL: off
     org.hibernate.orm.jdbc.bind: off 
+  springdoc:
+    api-docs:
+      path: /api-docs
+    swagger-ui:
+      path: /swagger-ui.html
