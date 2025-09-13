@@ -23,5 +23,6 @@ These events are later published to Kafka topics (e.g., `order.created`) and con
 
 ---
 
+
 ## REST API (OpenAPI Spec)
 [OpenAPI](docs/openapi-order.pretty.json)
